@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
+
+    <!--header-->
     <header>
         <div class="log">
           <a href="#" class="logo">
@@ -25,6 +27,8 @@
           </div>
         </nav>
     </header>
+
+    <!--main section-->
     <section id="home" class="hero">
         <div class="hero-text">
             <h2>Find Your Perfect Sound</h2>
@@ -38,34 +42,41 @@
    
     <section id="products" class="products">
         <h2 class="section-title">Our Products</h2>
-        <div class="product-grid">
-            <a href="#product1" class="product-box">
-                <img src="black.jpg" alt="Product 1">
-                <h3>BLACK</h3>
-                <p>$199.99</p>
-            </a>
-            <a href="#product2" class="product-box">
-                <img src="purple2.jpg" alt="Product 2">
-                <h3>PURPLE</h3>
-                <p>$129.99</p>
-            </a>
-            <a href="#product3" class="product-box">
-                <img src="blue.jpg" alt="Product 3">
-                <h3>BLUE</h3>
-                <p>$99.99</p>
-            </a>
-            <a href="#product4" class="product-box">
-                <img src="greem.jpg" alt="Product 4">
-                <h3>GREEN</h3>
-                <p>$99.99</p>
-            </a>
-            <a href="#product5" class="product-box">
-                <img src="headphones2.jpg" alt="Product 5">
-                <h3>WHITE</h3>
-                <p>$99.99</p>
-            </a>
+        <div class="product-scroll-wrapper">
+            <button class="scroll-btn left">&lt;</button>
+            <div class="product-scroll-container">
+                <div class="product-grid">
+                    <div class="product-box">
+                        <img src="black.jpg" alt="Product 1">
+                        <h3>BLACK</h3>
+                        <p>$199.99</p>
+                    </div>
+                    <div class="product-box">
+                        <img src="purple2.jpg" alt="Product 2">
+                        <h3>PURPLE</h3>
+                        <p>$129.99</p>
+                    </div>
+                    <div class="product-box">
+                        <img src="blue.jpg" alt="Product 3">
+                        <h3>BLUE</h3>
+                        <p>$99.99</p>
+                    </div>
+                    <div class="product-box">
+                        <img src="greem.jpg" alt="Product 4">
+                        <h3>GREEN</h3>
+                        <p>$99.99</p>
+                    </div>
+                    <div class="product-box">
+                        <img src="headphones2.jpg" alt="Product 5">
+                        <h3>WHITE</h3>
+                        <p>$99.99</p>
+                    </div>
+                </div>
+            </div>
+            <button class="scroll-btn right">&gt;</button>
         </div>
     </section>
+    
  <section id="review" class="reviews">
         <h2 class="section-title">Customer Reviews</h2>
         <p>Reviews coming soon...</p>
@@ -76,10 +87,43 @@
       <div class="contact-section">
         <p>Name: <input type="text" name="text" class="space" placeholder="John Doe"></p>
         <p>Email: <input type="email" name="email" class="space" placeholder="johndoe@gmail.com"></p>
-        <p>Phone: <input type="number" name="number" class="space"></p>
-        <p>Text: <input type="text" name="text" class="text"></p>
+        <p>Phone: <input type="text" name="number" class="space" placeholder="+234"></p>
+        <p>Text: <input type="text" name="text" class="text" placeholder="Send us a Text"></p>
          <button type="submit" class="submit">Submit</button>
       </div>
     </section>
+
+    <!--footer-->
+    <footer>
+        <div class="footer-section">
+         <div class="box">
+            <img src="white2.jpg" alt="Logo">
+            <h4>ADDRESS</h4> 
+            <h5 id="address">24, Dead end avenue, California</h5>
+            <h4 id="phone">PHONE</h4>
+            <h5>+234 8559 059 7567</h5>
+         </div>
+         <div class="footer-column">
+            <h1>Useful Links</h1>
+            <a href="about-us.html" class="footer-text">About Us</a>
+            <a href="#Faq" class="footer-text">FAQ</a>
+            <a href="#blog" class="footer-text">Blog</a>
+            <a href="#contact" class="footer-text">Contact Us</a>
+        </div>
+        <div class="footer-icons"> 
+            <h1>Follow Us</h1>
+        <a href="#"><i class="fa-brands fa-instagram"></i>        Instagram</a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i>           Tiktok</a>
+        <a href="#"><i class="fa-brands fa-threads"></i>          Threads</a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i>         Linkedln</a>
+        </div>
+        <div class="footer-touch">
+           <h1 id="touch"> STAY IN TOUCH <input type="email" name="email" class="space" placeholder="email address" class="input"><i class="fa-solid fa-right"></i></h1>  
+        </div>
+        </div>
+        <hr>
+        <br>
+        <p id="copy">&copy; 2024 Air Pods Max. All rights reserved.</p>
+    </footer>
 </body>
 </html>

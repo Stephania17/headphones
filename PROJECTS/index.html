@@ -7,63 +7,32 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <!--text color-->
-   <h1>1. Color With Different shades</h1>
-   <p class="text-green-400">tailwind</p> 
+<div class="flex flex-wrap">
+    <div class="w-4rem mt-10 ml-4 p-3 shadow-md">shadow-medium</div>
+    <div class="w-5rem mt-10 ml-7 p-3 shadow-lg">shadowlarge</div>
+    <div class="w-5rem mt-10 ml-10 p-4 shadow-2xl bg-blue">submit</div>
+    <div class="w-5rem mt-10 ml-7 p-3 shadow-inner">shadowlarge</div>
 
-   <br>
-   <hr>
-
-   <!--background color-->
-   <h1>2. Background color</h1>
-   <p class="bg-pink-600 text-white">tailwind</p>
-
-   <br>
-   <hr>
-
-   <!--text-decoration-->
-   <h1>3. text-decoration</h1>
-   <p class="line-through">Tailwind</p>
-   <p class="text-purple-600 underline decoration-purple-400">tailwind</p>
-
-  <br>
-   <hr>
-
-   <!--accent color-->
-    <h1>accent color</h1>
-    <input type="checkbox"/>
-    <input type="checkbox" class="accent-pink-500"/>
-    <input class="accent-black hover:accent-pink-500" type="checkbox" />
-
-    <br>
-   <hr>
-
-   <!--margin-->
-   <h3>margin</h3>
-   <div class="m-4 bg-yellow-100">margin all around</div>
-
-   <!--positon-->
-   <h1 class="mb-3">positon</h1>
-   <div class="relative w-1/2 h-40 bg-orange-400 text-center">
-   <p>relative</p>
-   <div class="absolute left-0 top-0 bg-teal-500 p-4">
-    <p>absolute</p>
+    <div class="w-5rem mt-10 ml-7 p-3 shadow-lg shadow-pink-700">shadowlarge</div>
 </div>
-   </div>
-
-<!--display-->
-<div class="bg-indigo-100 p-10 mb-10 w-600">
-    <span class="inline w-[ ]">
-        1. this is display and will wrap normally
-    </span>
-    <span class="inline-block">
-        2. this is display inline-block and will not extend beyond its parent
-    </span>
+<div class="h-10  bg-gradient-to-r from blue-100 to-blue-500 m-10 text-center p-40">
+    this is gradient
+</div>
+<div class="h-40  bg-gradient-to-r from cyan-100 via-blue-500 to-teal-500 m-10 text-center p-40">
+    this is gradient
 </div>
 
+<!--borders-->
+<div class="border-2 border-green-100 m-10">
+    <div class=" w-96 m-3 p-5 border">border all around</div>
+    <div class=" w-96 m-3 p-5  border-2">border all around</div>
+    <div class=" w-96 m-3 p-5 border-x-4 border-red-500">border all around</div>
+</div>
 
-
-
+<!--border-redius-->
+<div class="border-2 border-green-100 m-10">
+    <div class="w-96 m-3 p-5 bg-teal-200 rounded-2xl">big back </div>
+</div>
 
 
 
@@ -96,5 +65,3 @@
 
 
 
-
-//Test
